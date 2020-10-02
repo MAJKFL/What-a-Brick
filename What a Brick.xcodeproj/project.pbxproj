@@ -7,44 +7,167 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA00F8442519F5330057F80E /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00F8432519F5330057F80E /* DetailedView.swift */; };
+		AA00F847251A35890057F80E /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00F846251A35890057F80E /* ARQuickLook.swift */; };
+		AA1A08BB251A4F5F001882A1 /* 1x1Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0880251A4F5C001882A1 /* 1x1Bright Yellowish-Green.usdz */; };
+		AA1A08BC251A4F60001882A1 /* 1x1Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0881251A4F5C001882A1 /* 1x1Bright Red.usdz */; };
+		AA1A08BD251A4F60001882A1 /* 1x1Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0882251A4F5C001882A1 /* 1x1Bright Yellow.usdz */; };
+		AA1A08BE251A4F60001882A1 /* 1x1Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0883251A4F5C001882A1 /* 1x1Medium Stone Grey.usdz */; };
+		AA1A08BF251A4F60001882A1 /* 1x1Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0884251A4F5C001882A1 /* 1x1Black.usdz */; };
+		AA1A08C0251A4F60001882A1 /* 1x1Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0885251A4F5C001882A1 /* 1x1Bright Orange.usdz */; };
+		AA1A08C1251A4F60001882A1 /* 1x1White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0886251A4F5C001882A1 /* 1x1White.usdz */; };
+		AA1A08C2251A4F60001882A1 /* 1x1Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0887251A4F5C001882A1 /* 1x1Dark Stone Grey.usdz */; };
+		AA1A08C4251A4F60001882A1 /* 1x2Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A088A251A4F5E001882A1 /* 1x2Bright Yellow.usdz */; };
+		AA1A08C5251A4F60001882A1 /* 1x2White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A088B251A4F5E001882A1 /* 1x2White.usdz */; };
+		AA1A08C6251A4F60001882A1 /* 1x2Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A088C251A4F5E001882A1 /* 1x2Bright Orange.usdz */; };
+		AA1A08C8251A4F60001882A1 /* 1x2Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A088E251A4F5E001882A1 /* 1x2Bright Red.usdz */; };
+		AA1A08C9251A4F60001882A1 /* 1x2Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A088F251A4F5E001882A1 /* 1x2Black.usdz */; };
+		AA1A08CA251A4F60001882A1 /* 1x2Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0890251A4F5E001882A1 /* 1x2Bright Yellowish-Green.usdz */; };
+		AA1A08CB251A4F60001882A1 /* 1x2Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0891251A4F5E001882A1 /* 1x2Dark Stone Grey.usdz */; };
+		AA1A08CC251A4F60001882A1 /* 1x2Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0892251A4F5E001882A1 /* 1x2Medium Stone Grey.usdz */; };
+		AA1A08CE251A4F60001882A1 /* 1x3Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0895251A4F5E001882A1 /* 1x3Bright Yellow.usdz */; };
+		AA1A08CF251A4F60001882A1 /* 1x3Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0896251A4F5F001882A1 /* 1x3Bright Orange.usdz */; };
+		AA1A08D0251A4F60001882A1 /* 1x3White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0897251A4F5F001882A1 /* 1x3White.usdz */; };
+		AA1A08D1251A4F60001882A1 /* 1x3Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0898251A4F5F001882A1 /* 1x3Bright Red.usdz */; };
+		AA1A08D2251A4F60001882A1 /* 1x3Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A0899251A4F5F001882A1 /* 1x3Medium Stone Grey.usdz */; };
+		AA1A08D3251A4F60001882A1 /* 1x3Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A089A251A4F5F001882A1 /* 1x3Bright Yellowish-Green.usdz */; };
+		AA1A08D4251A4F60001882A1 /* 1x3Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A089B251A4F5F001882A1 /* 1x3Dark Stone Grey.usdz */; };
+		AA1A08D5251A4F60001882A1 /* 1x3Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A089C251A4F5F001882A1 /* 1x3Black.usdz */; };
+		AA1A08D7251A4F60001882A1 /* 1x4White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A089F251A4F5F001882A1 /* 1x4White.usdz */; };
+		AA1A08D8251A4F60001882A1 /* 1x4Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A0251A4F5F001882A1 /* 1x4Bright Red.usdz */; };
+		AA1A08D9251A4F60001882A1 /* 1x4Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A1251A4F5F001882A1 /* 1x4Bright Orange.usdz */; };
+		AA1A08DA251A4F60001882A1 /* 1x4Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A2251A4F5F001882A1 /* 1x4Bright Yellow.usdz */; };
+		AA1A08DB251A4F60001882A1 /* 1x4Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A3251A4F5F001882A1 /* 1x4Black.usdz */; };
+		AA1A08DC251A4F60001882A1 /* 1x4Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A4251A4F5F001882A1 /* 1x4Medium Stone Grey.usdz */; };
+		AA1A08DD251A4F60001882A1 /* 1x4Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A5251A4F5F001882A1 /* 1x4Bright Yellowish-Green.usdz */; };
+		AA1A08DE251A4F60001882A1 /* 1x4Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A6251A4F5F001882A1 /* 1x4Dark Stone Grey.usdz */; };
+		AA1A08DF251A4F60001882A1 /* 2x2Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08A8251A4F5F001882A1 /* 2x2Bright Orange.usdz */; };
+		AA1A08E1251A4F60001882A1 /* 2x2Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AA251A4F5F001882A1 /* 2x2Bright Yellow.usdz */; };
+		AA1A08E2251A4F60001882A1 /* 2x2Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AB251A4F5F001882A1 /* 2x2Dark Stone Grey.usdz */; };
+		AA1A08E3251A4F60001882A1 /* 2x2White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AC251A4F5F001882A1 /* 2x2White.usdz */; };
+		AA1A08E4251A4F60001882A1 /* 2x2Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AD251A4F5F001882A1 /* 2x2Bright Yellowish-Green.usdz */; };
+		AA1A08E5251A4F60001882A1 /* 2x2Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AE251A4F5F001882A1 /* 2x2Medium Stone Grey.usdz */; };
+		AA1A08E6251A4F60001882A1 /* 2x2Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08AF251A4F5F001882A1 /* 2x2Bright Red.usdz */; };
+		AA1A08E7251A4F60001882A1 /* 2x2Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B0251A4F5F001882A1 /* 2x2Black.usdz */; };
+		AA1A08E9251A4F60001882A1 /* 2x4White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B3251A4F5F001882A1 /* 2x4White.usdz */; };
+		AA1A08EA251A4F60001882A1 /* 2x4Dark Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B4251A4F5F001882A1 /* 2x4Dark Stone Grey.usdz */; };
+		AA1A08EB251A4F60001882A1 /* 2x4Bright Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B5251A4F5F001882A1 /* 2x4Bright Yellow.usdz */; };
+		AA1A08EC251A4F60001882A1 /* 2x4Bright Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B6251A4F5F001882A1 /* 2x4Bright Orange.usdz */; };
+		AA1A08ED251A4F60001882A1 /* 2x4Bright Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B7251A4F5F001882A1 /* 2x4Bright Red.usdz */; };
+		AA1A08EE251A4F60001882A1 /* 2x4Bright Yellowish-Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B8251A4F5F001882A1 /* 2x4Bright Yellowish-Green.usdz */; };
+		AA1A08EF251A4F60001882A1 /* 2x4Medium Stone Grey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08B9251A4F5F001882A1 /* 2x4Medium Stone Grey.usdz */; };
+		AA1A08F0251A4F60001882A1 /* 2x4Black.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08BA251A4F5F001882A1 /* 2x4Black.usdz */; };
+		AA1A08FD251A5A2E001882A1 /* 2x2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08F7251A5A29001882A1 /* 2x2.usdz */; };
+		AA1A08FE251A5A2E001882A1 /* 1x2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08F8251A5A2A001882A1 /* 1x2.usdz */; };
+		AA1A08FF251A5A2E001882A1 /* 1x1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08F9251A5A2B001882A1 /* 1x1.usdz */; };
+		AA1A0900251A5A2E001882A1 /* 1x4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08FA251A5A2C001882A1 /* 1x4.usdz */; };
+		AA1A0901251A5A2E001882A1 /* 1x3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08FB251A5A2D001882A1 /* 1x3.usdz */; };
+		AA1A0902251A5A2E001882A1 /* 2x4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08FC251A5A2E001882A1 /* 2x4.usdz */; };
+		AA1A0910251A6A1A001882A1 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A090F251A6A1A001882A1 /* ARView.swift */; };
+		AA44FCB2250E653E00DEBB0C /* BrickClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA44FCB1250E653E00DEBB0C /* BrickClassifier.mlmodel */; };
+		AA44FCB4250E67CF00DEBB0C /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44FCB3250E67CF00DEBB0C /* UIDevice+Extensions.swift */; };
+		AA4A37452507B6AD0077F9DD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A37442507B6AD0077F9DD /* UIColor+Extensions.swift */; };
 		AA4B0FE6250294C500E0A0F3 /* What_a_BrickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B0FE5250294C500E0A0F3 /* What_a_BrickApp.swift */; };
 		AA4B0FE8250294C500E0A0F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B0FE7250294C500E0A0F3 /* ContentView.swift */; };
 		AA4B0FEA250294C600E0A0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4B0FE9250294C600E0A0F3 /* Assets.xcassets */; };
 		AA4B0FED250294C600E0A0F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4B0FEC250294C600E0A0F3 /* Preview Assets.xcassets */; };
-		AA4B0FF8250294C600E0A0F3 /* What_a_BrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B0FF7250294C600E0A0F3 /* What_a_BrickTests.swift */; };
-		AA4B1003250294C600E0A0F3 /* What_a_BrickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B1002250294C600E0A0F3 /* What_a_BrickUITests.swift */; };
+		AA4B10132502988000E0A0F3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B10122502988000E0A0F3 /* Coordinator.swift */; };
+		AA623CA22518B24F00060407 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623CA12518B24F00060407 /* CollectionView.swift */; };
+		AA623CAC2518CC8400060407 /* bricks.json in Resources */ = {isa = PBXBuildFile; fileRef = AA623CAB2518CC8400060407 /* bricks.json */; };
+		AA6626C92518DC8400F324E4 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6626C82518DC8400F324E4 /* ThumbnailView.swift */; };
+		AA75C992251B4D8F00E738B5 /* 2x2Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA75C991251B4D8F00E738B5 /* 2x2Bright Blue.usdz */; };
+		AA75C996251B4DA400E738B5 /* 1x1Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA75C995251B4DA400E738B5 /* 1x1Bright Blue.usdz */; };
+		AA75C99A251B4DB800E738B5 /* 1x4Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA75C999251B4DB800E738B5 /* 1x4Bright Blue.usdz */; };
+		AA75C99E251B4DD000E738B5 /* 1x2Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA75C99D251B4DD000E738B5 /* 1x2Bright Blue.usdz */; };
+		AA75C9A2251B4DE000E738B5 /* 1x3Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AA75C9A1251B4DE000E738B5 /* 1x3Bright Blue.usdz */; };
+		AAC9DF662502D08100E9E4BF /* BrickRecognizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9DF652502D08100E9E4BF /* BrickRecognizeView.swift */; };
+		AAC9DF6B2502DF1C00E9E4BF /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9DF6A2502DF1C00E9E4BF /* UIImage+Extensions.swift */; };
+		AAE82D7C251641F700808291 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE82D7B251641F700808291 /* Brick.swift */; };
+		AAE82D80251642B900808291 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE82D7F251642B900808291 /* Bundle-Decodable.swift */; };
+		AAF2E6B7251B762B0061A09A /* 2x4Bright Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AAF2E6B6251B762B0061A09A /* 2x4Bright Blue.usdz */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AA4B0FF4250294C600E0A0F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA4B0FDA250294C500E0A0F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA4B0FE1250294C500E0A0F3;
-			remoteInfo = "What a Brick";
-		};
-		AA4B0FFF250294C600E0A0F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA4B0FDA250294C500E0A0F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA4B0FE1250294C500E0A0F3;
-			remoteInfo = "What a Brick";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		AA00F8432519F5330057F80E /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		AA00F846251A35890057F80E /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
+		AA1A0880251A4F5C001882A1 /* 1x1Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A0881251A4F5C001882A1 /* 1x1Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A0882251A4F5C001882A1 /* 1x1Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A0883251A4F5C001882A1 /* 1x1Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A0884251A4F5C001882A1 /* 1x1Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x1Black.usdz; sourceTree = "<group>"; };
+		AA1A0885251A4F5C001882A1 /* 1x1Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A0886251A4F5C001882A1 /* 1x1White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x1White.usdz; sourceTree = "<group>"; };
+		AA1A0887251A4F5C001882A1 /* 1x1Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A088A251A4F5E001882A1 /* 1x2Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A088B251A4F5E001882A1 /* 1x2White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x2White.usdz; sourceTree = "<group>"; };
+		AA1A088C251A4F5E001882A1 /* 1x2Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A088E251A4F5E001882A1 /* 1x2Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A088F251A4F5E001882A1 /* 1x2Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x2Black.usdz; sourceTree = "<group>"; };
+		AA1A0890251A4F5E001882A1 /* 1x2Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A0891251A4F5E001882A1 /* 1x2Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A0892251A4F5E001882A1 /* 1x2Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A0895251A4F5E001882A1 /* 1x3Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A0896251A4F5F001882A1 /* 1x3Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A0897251A4F5F001882A1 /* 1x3White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x3White.usdz; sourceTree = "<group>"; };
+		AA1A0898251A4F5F001882A1 /* 1x3Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A0899251A4F5F001882A1 /* 1x3Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A089A251A4F5F001882A1 /* 1x3Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A089B251A4F5F001882A1 /* 1x3Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A089C251A4F5F001882A1 /* 1x3Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x3Black.usdz; sourceTree = "<group>"; };
+		AA1A089F251A4F5F001882A1 /* 1x4White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x4White.usdz; sourceTree = "<group>"; };
+		AA1A08A0251A4F5F001882A1 /* 1x4Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A08A1251A4F5F001882A1 /* 1x4Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A08A2251A4F5F001882A1 /* 1x4Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A08A3251A4F5F001882A1 /* 1x4Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x4Black.usdz; sourceTree = "<group>"; };
+		AA1A08A4251A4F5F001882A1 /* 1x4Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08A5251A4F5F001882A1 /* 1x4Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A08A6251A4F5F001882A1 /* 1x4Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08A8251A4F5F001882A1 /* 2x2Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A08AA251A4F5F001882A1 /* 2x2Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A08AB251A4F5F001882A1 /* 2x2Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08AC251A4F5F001882A1 /* 2x2White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x2White.usdz; sourceTree = "<group>"; };
+		AA1A08AD251A4F5F001882A1 /* 2x2Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A08AE251A4F5F001882A1 /* 2x2Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08AF251A4F5F001882A1 /* 2x2Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A08B0251A4F5F001882A1 /* 2x2Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x2Black.usdz; sourceTree = "<group>"; };
+		AA1A08B3251A4F5F001882A1 /* 2x4White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x4White.usdz; sourceTree = "<group>"; };
+		AA1A08B4251A4F5F001882A1 /* 2x4Dark Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Dark Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08B5251A4F5F001882A1 /* 2x4Bright Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Bright Yellow.usdz"; sourceTree = "<group>"; };
+		AA1A08B6251A4F5F001882A1 /* 2x4Bright Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Bright Orange.usdz"; sourceTree = "<group>"; };
+		AA1A08B7251A4F5F001882A1 /* 2x4Bright Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Bright Red.usdz"; sourceTree = "<group>"; };
+		AA1A08B8251A4F5F001882A1 /* 2x4Bright Yellowish-Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Bright Yellowish-Green.usdz"; sourceTree = "<group>"; };
+		AA1A08B9251A4F5F001882A1 /* 2x4Medium Stone Grey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Medium Stone Grey.usdz"; sourceTree = "<group>"; };
+		AA1A08BA251A4F5F001882A1 /* 2x4Black.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x4Black.usdz; sourceTree = "<group>"; };
+		AA1A08F7251A5A29001882A1 /* 2x2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x2.usdz; sourceTree = "<group>"; };
+		AA1A08F8251A5A2A001882A1 /* 1x2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x2.usdz; sourceTree = "<group>"; };
+		AA1A08F9251A5A2B001882A1 /* 1x1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x1.usdz; sourceTree = "<group>"; };
+		AA1A08FA251A5A2C001882A1 /* 1x4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x4.usdz; sourceTree = "<group>"; };
+		AA1A08FB251A5A2D001882A1 /* 1x3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 1x3.usdz; sourceTree = "<group>"; };
+		AA1A08FC251A5A2E001882A1 /* 2x4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 2x4.usdz; sourceTree = "<group>"; };
+		AA1A090F251A6A1A001882A1 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		AA44FCB1250E653E00DEBB0C /* BrickClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BrickClassifier.mlmodel; sourceTree = "<group>"; };
+		AA44FCB3250E67CF00DEBB0C /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		AA4A37442507B6AD0077F9DD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		AA4B0FE2250294C500E0A0F3 /* What a Brick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What a Brick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4B0FE5250294C500E0A0F3 /* What_a_BrickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_a_BrickApp.swift; sourceTree = "<group>"; };
 		AA4B0FE7250294C500E0A0F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA4B0FE9250294C600E0A0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4B0FEC250294C600E0A0F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA4B0FEE250294C600E0A0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA4B0FF3250294C600E0A0F3 /* What a BrickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What a BrickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA4B0FF7250294C600E0A0F3 /* What_a_BrickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_a_BrickTests.swift; sourceTree = "<group>"; };
-		AA4B0FF9250294C600E0A0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA4B0FFE250294C600E0A0F3 /* What a BrickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What a BrickUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA4B1002250294C600E0A0F3 /* What_a_BrickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_a_BrickUITests.swift; sourceTree = "<group>"; };
-		AA4B1004250294C600E0A0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4B10122502988000E0A0F3 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AA623CA12518B24F00060407 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		AA623CAB2518CC8400060407 /* bricks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bricks.json; sourceTree = "<group>"; };
+		AA6626C82518DC8400F324E4 /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		AA75C991251B4D8F00E738B5 /* 2x2Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x2Bright Blue.usdz"; sourceTree = "<group>"; };
+		AA75C995251B4DA400E738B5 /* 1x1Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x1Bright Blue.usdz"; sourceTree = "<group>"; };
+		AA75C999251B4DB800E738B5 /* 1x4Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x4Bright Blue.usdz"; sourceTree = "<group>"; };
+		AA75C99D251B4DD000E738B5 /* 1x2Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x2Bright Blue.usdz"; sourceTree = "<group>"; };
+		AA75C9A1251B4DE000E738B5 /* 1x3Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "1x3Bright Blue.usdz"; sourceTree = "<group>"; };
+		AAC9DF652502D08100E9E4BF /* BrickRecognizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickRecognizeView.swift; sourceTree = "<group>"; };
+		AAC9DF6A2502DF1C00E9E4BF /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		AAE82D7B251641F700808291 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		AAE82D7F251642B900808291 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		AAF2E6B6251B762B0061A09A /* 2x4Bright Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "2x4Bright Blue.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,29 +178,159 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA4B0FF0250294C600E0A0F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4B0FFB250294C600E0A0F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1A087F251A4F5C001882A1 /* 1x1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA75C995251B4DA400E738B5 /* 1x1Bright Blue.usdz */,
+				AA1A0880251A4F5C001882A1 /* 1x1Bright Yellowish-Green.usdz */,
+				AA1A0881251A4F5C001882A1 /* 1x1Bright Red.usdz */,
+				AA1A0882251A4F5C001882A1 /* 1x1Bright Yellow.usdz */,
+				AA1A0883251A4F5C001882A1 /* 1x1Medium Stone Grey.usdz */,
+				AA1A0884251A4F5C001882A1 /* 1x1Black.usdz */,
+				AA1A0885251A4F5C001882A1 /* 1x1Bright Orange.usdz */,
+				AA1A0886251A4F5C001882A1 /* 1x1White.usdz */,
+				AA1A0887251A4F5C001882A1 /* 1x1Dark Stone Grey.usdz */,
+			);
+			path = 1x1;
+			sourceTree = "<group>";
+		};
+		AA1A0889251A4F5E001882A1 /* 1x2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A088A251A4F5E001882A1 /* 1x2Bright Yellow.usdz */,
+				AA1A088B251A4F5E001882A1 /* 1x2White.usdz */,
+				AA1A088C251A4F5E001882A1 /* 1x2Bright Orange.usdz */,
+				AA1A088E251A4F5E001882A1 /* 1x2Bright Red.usdz */,
+				AA75C99D251B4DD000E738B5 /* 1x2Bright Blue.usdz */,
+				AA1A088F251A4F5E001882A1 /* 1x2Black.usdz */,
+				AA1A0890251A4F5E001882A1 /* 1x2Bright Yellowish-Green.usdz */,
+				AA1A0891251A4F5E001882A1 /* 1x2Dark Stone Grey.usdz */,
+				AA1A0892251A4F5E001882A1 /* 1x2Medium Stone Grey.usdz */,
+			);
+			path = 1x2;
+			sourceTree = "<group>";
+		};
+		AA1A0893251A4F5E001882A1 /* 1x3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA75C9A1251B4DE000E738B5 /* 1x3Bright Blue.usdz */,
+				AA1A0895251A4F5E001882A1 /* 1x3Bright Yellow.usdz */,
+				AA1A0896251A4F5F001882A1 /* 1x3Bright Orange.usdz */,
+				AA1A0897251A4F5F001882A1 /* 1x3White.usdz */,
+				AA1A0898251A4F5F001882A1 /* 1x3Bright Red.usdz */,
+				AA1A0899251A4F5F001882A1 /* 1x3Medium Stone Grey.usdz */,
+				AA1A089A251A4F5F001882A1 /* 1x3Bright Yellowish-Green.usdz */,
+				AA1A089B251A4F5F001882A1 /* 1x3Dark Stone Grey.usdz */,
+				AA1A089C251A4F5F001882A1 /* 1x3Black.usdz */,
+			);
+			name = 1x3;
+			path = "../New Group/1x3";
+			sourceTree = "<group>";
+		};
+		AA1A089D251A4F5F001882A1 /* 1x4 */ = {
+			isa = PBXGroup;
+			children = (
+				AA75C999251B4DB800E738B5 /* 1x4Bright Blue.usdz */,
+				AA1A089F251A4F5F001882A1 /* 1x4White.usdz */,
+				AA1A08A0251A4F5F001882A1 /* 1x4Bright Red.usdz */,
+				AA1A08A1251A4F5F001882A1 /* 1x4Bright Orange.usdz */,
+				AA1A08A2251A4F5F001882A1 /* 1x4Bright Yellow.usdz */,
+				AA1A08A3251A4F5F001882A1 /* 1x4Black.usdz */,
+				AA1A08A4251A4F5F001882A1 /* 1x4Medium Stone Grey.usdz */,
+				AA1A08A5251A4F5F001882A1 /* 1x4Bright Yellowish-Green.usdz */,
+				AA1A08A6251A4F5F001882A1 /* 1x4Dark Stone Grey.usdz */,
+			);
+			path = 1x4;
+			sourceTree = "<group>";
+		};
+		AA1A08A7251A4F5F001882A1 /* 2x2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A08A8251A4F5F001882A1 /* 2x2Bright Orange.usdz */,
+				AA75C991251B4D8F00E738B5 /* 2x2Bright Blue.usdz */,
+				AA1A08AA251A4F5F001882A1 /* 2x2Bright Yellow.usdz */,
+				AA1A08AB251A4F5F001882A1 /* 2x2Dark Stone Grey.usdz */,
+				AA1A08AC251A4F5F001882A1 /* 2x2White.usdz */,
+				AA1A08AD251A4F5F001882A1 /* 2x2Bright Yellowish-Green.usdz */,
+				AA1A08AE251A4F5F001882A1 /* 2x2Medium Stone Grey.usdz */,
+				AA1A08AF251A4F5F001882A1 /* 2x2Bright Red.usdz */,
+				AA1A08B0251A4F5F001882A1 /* 2x2Black.usdz */,
+			);
+			path = 2x2;
+			sourceTree = "<group>";
+		};
+		AA1A08B1251A4F5F001882A1 /* 2x4 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2E6B6251B762B0061A09A /* 2x4Bright Blue.usdz */,
+				AA1A08B3251A4F5F001882A1 /* 2x4White.usdz */,
+				AA1A08B4251A4F5F001882A1 /* 2x4Dark Stone Grey.usdz */,
+				AA1A08B5251A4F5F001882A1 /* 2x4Bright Yellow.usdz */,
+				AA1A08B6251A4F5F001882A1 /* 2x4Bright Orange.usdz */,
+				AA1A08B7251A4F5F001882A1 /* 2x4Bright Red.usdz */,
+				AA1A08B8251A4F5F001882A1 /* 2x4Bright Yellowish-Green.usdz */,
+				AA1A08B9251A4F5F001882A1 /* 2x4Medium Stone Grey.usdz */,
+				AA1A08BA251A4F5F001882A1 /* 2x4Black.usdz */,
+			);
+			path = 2x4;
+			sourceTree = "<group>";
+		};
+		AA1A08F5251A59F2001882A1 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A08A7251A4F5F001882A1 /* 2x2 */,
+				AA1A08B1251A4F5F001882A1 /* 2x4 */,
+				AA1A087F251A4F5C001882A1 /* 1x1 */,
+				AA1A089D251A4F5F001882A1 /* 1x4 */,
+				AA1A0889251A4F5E001882A1 /* 1x2 */,
+				AA1A0893251A4F5E001882A1 /* 1x3 */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		AA1A08F6251A5A19001882A1 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A08F9251A5A2B001882A1 /* 1x1.usdz */,
+				AA1A08F8251A5A2A001882A1 /* 1x2.usdz */,
+				AA1A08FB251A5A2D001882A1 /* 1x3.usdz */,
+				AA1A08FA251A5A2C001882A1 /* 1x4.usdz */,
+				AA1A08F7251A5A29001882A1 /* 2x2.usdz */,
+				AA1A08FC251A5A2E001882A1 /* 2x4.usdz */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		AA4013B225165E1C00261039 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B0FE5250294C500E0A0F3 /* What_a_BrickApp.swift */,
+				AA4B0FE7250294C500E0A0F3 /* ContentView.swift */,
+				AAC9DF652502D08100E9E4BF /* BrickRecognizeView.swift */,
+				AA623CA12518B24F00060407 /* CollectionView.swift */,
+				AA00F8432519F5330057F80E /* DetailedView.swift */,
+				AA6626C82518DC8400F324E4 /* ThumbnailView.swift */,
+				AA1A090F251A6A1A001882A1 /* ARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA43609B250A3E2700B88126 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A08F6251A5A19001882A1 /* Previews */,
+				AA1A08F5251A59F2001882A1 /* AR */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		AA4B0FD9250294C500E0A0F3 = {
 			isa = PBXGroup;
 			children = (
 				AA4B0FE4250294C500E0A0F3 /* What a Brick */,
-				AA4B0FF6250294C600E0A0F3 /* What a BrickTests */,
-				AA4B1001250294C600E0A0F3 /* What a BrickUITests */,
 				AA4B0FE3250294C500E0A0F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +339,6 @@
 			isa = PBXGroup;
 			children = (
 				AA4B0FE2250294C500E0A0F3 /* What a Brick.app */,
-				AA4B0FF3250294C600E0A0F3 /* What a BrickTests.xctest */,
-				AA4B0FFE250294C600E0A0F3 /* What a BrickUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +346,10 @@
 		AA4B0FE4250294C500E0A0F3 /* What a Brick */ = {
 			isa = PBXGroup;
 			children = (
-				AA4B0FE5250294C500E0A0F3 /* What_a_BrickApp.swift */,
-				AA4B0FE7250294C500E0A0F3 /* ContentView.swift */,
+				AA43609B250A3E2700B88126 /* Objects */,
+				AABE07DF2509514000464625 /* Extensions+Coordinators */,
+				AAE82D79251641BC00808291 /* Models */,
+				AA4013B225165E1C00261039 /* Views */,
 				AA4B0FE9250294C600E0A0F3 /* Assets.xcassets */,
 				AA4B0FEE250294C600E0A0F3 /* Info.plist */,
 				AA4B0FEB250294C600E0A0F3 /* Preview Content */,
@@ -112,22 +365,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AA4B0FF6250294C600E0A0F3 /* What a BrickTests */ = {
+		AABE07DF2509514000464625 /* Extensions+Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				AA4B0FF7250294C600E0A0F3 /* What_a_BrickTests.swift */,
-				AA4B0FF9250294C600E0A0F3 /* Info.plist */,
+				AA00F846251A35890057F80E /* ARQuickLook.swift */,
+				AAE82D7F251642B900808291 /* Bundle-Decodable.swift */,
+				AA4B10122502988000E0A0F3 /* Coordinator.swift */,
+				AA4A37442507B6AD0077F9DD /* UIColor+Extensions.swift */,
+				AAC9DF6A2502DF1C00E9E4BF /* UIImage+Extensions.swift */,
+				AA44FCB3250E67CF00DEBB0C /* UIDevice+Extensions.swift */,
 			);
-			path = "What a BrickTests";
+			path = "Extensions+Coordinators";
 			sourceTree = "<group>";
 		};
-		AA4B1001250294C600E0A0F3 /* What a BrickUITests */ = {
+		AAE82D79251641BC00808291 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA4B1002250294C600E0A0F3 /* What_a_BrickUITests.swift */,
-				AA4B1004250294C600E0A0F3 /* Info.plist */,
+				AA623CAB2518CC8400060407 /* bricks.json */,
+				AA44FCB1250E653E00DEBB0C /* BrickClassifier.mlmodel */,
+				AAE82D7B251641F700808291 /* Brick.swift */,
 			);
-			path = "What a BrickUITests";
+			name = Models;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,42 +409,6 @@
 			productReference = AA4B0FE2250294C500E0A0F3 /* What a Brick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA4B0FF2250294C600E0A0F3 /* What a BrickTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA4B100A250294C600E0A0F3 /* Build configuration list for PBXNativeTarget "What a BrickTests" */;
-			buildPhases = (
-				AA4B0FEF250294C600E0A0F3 /* Sources */,
-				AA4B0FF0250294C600E0A0F3 /* Frameworks */,
-				AA4B0FF1250294C600E0A0F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA4B0FF5250294C600E0A0F3 /* PBXTargetDependency */,
-			);
-			name = "What a BrickTests";
-			productName = "What a BrickTests";
-			productReference = AA4B0FF3250294C600E0A0F3 /* What a BrickTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AA4B0FFD250294C600E0A0F3 /* What a BrickUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA4B100D250294C600E0A0F3 /* Build configuration list for PBXNativeTarget "What a BrickUITests" */;
-			buildPhases = (
-				AA4B0FFA250294C600E0A0F3 /* Sources */,
-				AA4B0FFB250294C600E0A0F3 /* Frameworks */,
-				AA4B0FFC250294C600E0A0F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA4B1000250294C600E0A0F3 /* PBXTargetDependency */,
-			);
-			name = "What a BrickUITests";
-			productName = "What a BrickUITests";
-			productReference = AA4B0FFE250294C600E0A0F3 /* What a BrickUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +420,6 @@
 				TargetAttributes = {
 					AA4B0FE1250294C500E0A0F3 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					AA4B0FF2250294C600E0A0F3 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = AA4B0FE1250294C500E0A0F3;
-					};
-					AA4B0FFD250294C600E0A0F3 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = AA4B0FE1250294C500E0A0F3;
 					};
 				};
 			};
@@ -222,8 +437,6 @@
 			projectRoot = "";
 			targets = (
 				AA4B0FE1250294C500E0A0F3 /* What a Brick */,
-				AA4B0FF2250294C600E0A0F3 /* What a BrickTests */,
-				AA4B0FFD250294C600E0A0F3 /* What a BrickUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,22 +446,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1A08C8251A4F60001882A1 /* 1x2Bright Red.usdz in Resources */,
+				AA1A08CF251A4F60001882A1 /* 1x3Bright Orange.usdz in Resources */,
+				AA1A08E3251A4F60001882A1 /* 2x2White.usdz in Resources */,
+				AA1A08E2251A4F60001882A1 /* 2x2Dark Stone Grey.usdz in Resources */,
+				AA1A0900251A5A2E001882A1 /* 1x4.usdz in Resources */,
+				AA1A08E9251A4F60001882A1 /* 2x4White.usdz in Resources */,
+				AA1A0901251A5A2E001882A1 /* 1x3.usdz in Resources */,
+				AA1A08FE251A5A2E001882A1 /* 1x2.usdz in Resources */,
+				AA1A08D9251A4F60001882A1 /* 1x4Bright Orange.usdz in Resources */,
+				AA1A08EE251A4F60001882A1 /* 2x4Bright Yellowish-Green.usdz in Resources */,
+				AA1A08FD251A5A2E001882A1 /* 2x2.usdz in Resources */,
+				AA1A08EB251A4F60001882A1 /* 2x4Bright Yellow.usdz in Resources */,
+				AA1A08CE251A4F60001882A1 /* 1x3Bright Yellow.usdz in Resources */,
+				AA1A08EC251A4F60001882A1 /* 2x4Bright Orange.usdz in Resources */,
+				AA1A08D8251A4F60001882A1 /* 1x4Bright Red.usdz in Resources */,
+				AA75C992251B4D8F00E738B5 /* 2x2Bright Blue.usdz in Resources */,
+				AA1A08EF251A4F60001882A1 /* 2x4Medium Stone Grey.usdz in Resources */,
+				AA1A08BF251A4F60001882A1 /* 1x1Black.usdz in Resources */,
+				AA1A08EA251A4F60001882A1 /* 2x4Dark Stone Grey.usdz in Resources */,
+				AA1A08DE251A4F60001882A1 /* 1x4Dark Stone Grey.usdz in Resources */,
+				AA1A08E6251A4F60001882A1 /* 2x2Bright Red.usdz in Resources */,
+				AA1A08C2251A4F60001882A1 /* 1x1Dark Stone Grey.usdz in Resources */,
+				AA1A08C9251A4F60001882A1 /* 1x2Black.usdz in Resources */,
+				AA1A08C0251A4F60001882A1 /* 1x1Bright Orange.usdz in Resources */,
+				AAF2E6B7251B762B0061A09A /* 2x4Bright Blue.usdz in Resources */,
+				AA1A08D3251A4F60001882A1 /* 1x3Bright Yellowish-Green.usdz in Resources */,
+				AA1A08C4251A4F60001882A1 /* 1x2Bright Yellow.usdz in Resources */,
+				AA1A08D1251A4F60001882A1 /* 1x3Bright Red.usdz in Resources */,
+				AA1A08CC251A4F60001882A1 /* 1x2Medium Stone Grey.usdz in Resources */,
+				AA1A08D5251A4F60001882A1 /* 1x3Black.usdz in Resources */,
+				AA1A08DB251A4F60001882A1 /* 1x4Black.usdz in Resources */,
+				AA1A08BC251A4F60001882A1 /* 1x1Bright Red.usdz in Resources */,
+				AA1A08E5251A4F60001882A1 /* 2x2Medium Stone Grey.usdz in Resources */,
+				AA1A08FF251A5A2E001882A1 /* 1x1.usdz in Resources */,
+				AA1A08DA251A4F60001882A1 /* 1x4Bright Yellow.usdz in Resources */,
 				AA4B0FED250294C600E0A0F3 /* Preview Assets.xcassets in Resources */,
+				AA1A08E4251A4F60001882A1 /* 2x2Bright Yellowish-Green.usdz in Resources */,
+				AA1A08BE251A4F60001882A1 /* 1x1Medium Stone Grey.usdz in Resources */,
+				AA1A08E7251A4F60001882A1 /* 2x2Black.usdz in Resources */,
+				AA623CAC2518CC8400060407 /* bricks.json in Resources */,
+				AA1A08C1251A4F60001882A1 /* 1x1White.usdz in Resources */,
+				AA1A08BD251A4F60001882A1 /* 1x1Bright Yellow.usdz in Resources */,
+				AA1A08F0251A4F60001882A1 /* 2x4Black.usdz in Resources */,
+				AA75C996251B4DA400E738B5 /* 1x1Bright Blue.usdz in Resources */,
+				AA1A0902251A5A2E001882A1 /* 2x4.usdz in Resources */,
+				AA1A08DD251A4F60001882A1 /* 1x4Bright Yellowish-Green.usdz in Resources */,
+				AA1A08CA251A4F60001882A1 /* 1x2Bright Yellowish-Green.usdz in Resources */,
+				AA1A08ED251A4F60001882A1 /* 2x4Bright Red.usdz in Resources */,
+				AA75C99E251B4DD000E738B5 /* 1x2Bright Blue.usdz in Resources */,
+				AA1A08D2251A4F60001882A1 /* 1x3Medium Stone Grey.usdz in Resources */,
+				AA1A08E1251A4F60001882A1 /* 2x2Bright Yellow.usdz in Resources */,
+				AA1A08D0251A4F60001882A1 /* 1x3White.usdz in Resources */,
+				AA1A08BB251A4F5F001882A1 /* 1x1Bright Yellowish-Green.usdz in Resources */,
+				AA75C9A2251B4DE000E738B5 /* 1x3Bright Blue.usdz in Resources */,
+				AA1A08D4251A4F60001882A1 /* 1x3Dark Stone Grey.usdz in Resources */,
+				AA1A08DF251A4F60001882A1 /* 2x2Bright Orange.usdz in Resources */,
+				AA1A08CB251A4F60001882A1 /* 1x2Dark Stone Grey.usdz in Resources */,
+				AA75C99A251B4DB800E738B5 /* 1x4Bright Blue.usdz in Resources */,
 				AA4B0FEA250294C600E0A0F3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4B0FF1250294C600E0A0F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4B0FFC250294C600E0A0F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AA1A08C5251A4F60001882A1 /* 1x2White.usdz in Resources */,
+				AA1A08C6251A4F60001882A1 /* 1x2Bright Orange.usdz in Resources */,
+				AA1A08D7251A4F60001882A1 /* 1x4White.usdz in Resources */,
+				AA1A08DC251A4F60001882A1 /* 1x4Medium Stone Grey.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,41 +519,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4A37452507B6AD0077F9DD /* UIColor+Extensions.swift in Sources */,
 				AA4B0FE8250294C500E0A0F3 /* ContentView.swift in Sources */,
+				AA44FCB2250E653E00DEBB0C /* BrickClassifier.mlmodel in Sources */,
 				AA4B0FE6250294C500E0A0F3 /* What_a_BrickApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4B0FEF250294C600E0A0F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA4B0FF8250294C600E0A0F3 /* What_a_BrickTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA4B0FFA250294C600E0A0F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA4B1003250294C600E0A0F3 /* What_a_BrickUITests.swift in Sources */,
+				AA4B10132502988000E0A0F3 /* Coordinator.swift in Sources */,
+				AA1A0910251A6A1A001882A1 /* ARView.swift in Sources */,
+				AA6626C92518DC8400F324E4 /* ThumbnailView.swift in Sources */,
+				AA00F8442519F5330057F80E /* DetailedView.swift in Sources */,
+				AAE82D7C251641F700808291 /* Brick.swift in Sources */,
+				AA44FCB4250E67CF00DEBB0C /* UIDevice+Extensions.swift in Sources */,
+				AAE82D80251642B900808291 /* Bundle-Decodable.swift in Sources */,
+				AAC9DF6B2502DF1C00E9E4BF /* UIImage+Extensions.swift in Sources */,
+				AA623CA22518B24F00060407 /* CollectionView.swift in Sources */,
+				AAC9DF662502D08100E9E4BF /* BrickRecognizeView.swift in Sources */,
+				AA00F847251A35890057F80E /* ARQuickLook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AA4B0FF5250294C600E0A0F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA4B0FE1250294C500E0A0F3 /* What a Brick */;
-			targetProxy = AA4B0FF4250294C600E0A0F3 /* PBXContainerItemProxy */;
-		};
-		AA4B1000250294C600E0A0F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA4B0FE1250294C500E0A0F3 /* What a Brick */;
-			targetProxy = AA4B0FFF250294C600E0A0F3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AA4B1005250294C600E0A0F3 /* Debug */ = {
@@ -427,7 +671,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-Brick";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubFlorek.WhatABrick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,94 +693,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-Brick";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JakubFlorek.WhatABrick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AA4B100B250294C600E0A0F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T23P54M8LP;
-				INFOPLIST_FILE = "What a BrickTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-BrickTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What a Brick.app/What a Brick";
-			};
-			name = Debug;
-		};
-		AA4B100C250294C600E0A0F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T23P54M8LP;
-				INFOPLIST_FILE = "What a BrickTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-BrickTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What a Brick.app/What a Brick";
-			};
-			name = Release;
-		};
-		AA4B100E250294C600E0A0F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T23P54M8LP;
-				INFOPLIST_FILE = "What a BrickUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-BrickUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "What a Brick";
-			};
-			name = Debug;
-		};
-		AA4B100F250294C600E0A0F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T23P54M8LP;
-				INFOPLIST_FILE = "What a BrickUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JakubFlorek.WhatABrick.What-a-BrickUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "What a Brick";
 			};
 			name = Release;
 		};
@@ -557,24 +717,6 @@
 			buildConfigurations = (
 				AA4B1008250294C600E0A0F3 /* Debug */,
 				AA4B1009250294C600E0A0F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA4B100A250294C600E0A0F3 /* Build configuration list for PBXNativeTarget "What a BrickTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA4B100B250294C600E0A0F3 /* Debug */,
-				AA4B100C250294C600E0A0F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA4B100D250294C600E0A0F3 /* Build configuration list for PBXNativeTarget "What a BrickUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA4B100E250294C600E0A0F3 /* Debug */,
-				AA4B100F250294C600E0A0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
